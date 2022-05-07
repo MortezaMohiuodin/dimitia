@@ -1,0 +1,102 @@
+.productCart_component{
+  padding: 0 0.938rem;
+  margin: 0 0 2.5rem;
+}
+.productsThumb{
+  position: relative;
+}
+.productThumbHover{
+  position: relative;
+}
+.productImage1{
+  opacity: 1;
+  visibility: visible;
+  transition: all .5s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  max-width: 100%;
+}
+.productImage2{
+  transition: all .5s ease;
+  opacity: 0;
+  visibility: hidden;
+  max-width: 100%;
+}
+.productCart_component:hover .productImage1{
+  opacity: 0;
+  visibility: hidden;
+  transition: all .5s ease;
+}
+.productCart_component:hover .productImage2 {
+  opacity: 1;
+  visibility: visible;
+  transition: all .5s ease;
+}
+.productsContent{
+  padding: 1.875rem 1.875rem 1.438rem;
+  border: 1px solid rgba(27,27,27,.1);
+  border-top: 0;
+  background: var(--color-text-light);
+}
+.productPrice{
+  line-height: 100%;
+  font-weight: 600;
+  color: var(--color-secondary);
+  flex-direction: row-reverse;
+  margin-top: 1.5rem;
+}
+.offPrice{
+font-size: 1rem;
+font-weight: 800;
+}
+
+.PriceAmount{
+  font-size: 0.75rem;
+  padding-right: 0.438rem;
+}
+.productOption{
+  position: absolute;
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  bottom: 5%;
+  right: 0.625rem;
+  z-index: 9;
+  opacity: 0;
+  transition: all .5s ease;
+}
+.productCart_component:hover .productOption{
+  transition: all .5s ease;
+  opacity: 1;
+  visibility: visible;
+}
+.icon{
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--color-text-light);
+  border-radius: 50%;
+  margin-bottom: 0.25rem;
+}
+.icon:hover {
+  background-color: var(--color-secondary);
+}
+.icon:hover .iconHover {
+  color: var(--color-text-light);
+}
+.iconHover{
+  color: #999;
+  font-size: 1.313rem;
+  line-height: 2.563rem;
+}
+.productTitle{
+  font-size: 0.938rem;
+  text-align: right;
+}
+.productTitle:hover{
+  color: var(--color-secondary);
+}
+.titleLink{
+  margin-left: 100%;
+}

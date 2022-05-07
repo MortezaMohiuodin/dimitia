@@ -1,0 +1,47 @@
+.menu_component {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100vh;
+    right: 0;
+    position: fixed;
+    background: var(--color-text-light);
+    width: 245px;
+    top: 0;
+    padding: 1.875rem 50px;
+    transition: all 2s 1s ease-in-out;
+    box-shadow: 0 0 0.438rem var(--color-text);
+    z-index: 100;
+}
+.icon {
+    margin: auto;
+    cursor: pointer;
+    position: relative;
+    width: 24px;
+    height: 13px;
+}
+.box {
+    padding-top: 0.625rem;
+}
+.link {
+    position: relative;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: transparent;
+    color: var(--color-primary);
+    display: table;
+    white-space: nowrap;
+    transition: all .2s ease 0s;
+    color: var(--color-text);
+    margin: 0;
+}
+.item {
+    text-align: right;
+    font-size: 16px;
+    position: relative;
+    padding: 1.094rem 0;
+    display: block;
+}
+.border {
+    border-bottom: 1px solid var(--color-background-1);
+    font-weight: 500;
+}

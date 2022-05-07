@@ -1,0 +1,44 @@
+.navBar_component {
+    padding: 2.938rem 0;
+    margin-left: 15px;
+}
+.nav {
+    display: flex;
+}
+.account {
+    position: relative;
+}
+.iconCancel {
+    font-size: 1.25rem;
+    position: absolute;
+    top: 15%;
+    right: 3%;
+    z-index: 9;
+    color:var(--color-text-light);
+}
+.iconMenu {
+    margin-right:0 !important;
+}
+.cartShopping_component{
+    cursor: pointer;
+    font-size: 26px;
+    color: var(--color-text);
+    position: relative;
+}
+.cart :hover{
+    color: var(--color-secondary);
+}
+.cartCount{
+    background-color: var(--color-secondary);
+    color: var(--color-text-light) !important;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -5px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 13px;
+    top: -13px;
+    font-weight: 500;
+    border-radius: 50%;
+}

@@ -1,0 +1,95 @@
+.footer {
+  background-color: var(--color-primary);
+  color: #c1c1c1;
+  position: relative;
+  margin-top: 5.625rem;
+}
+.Subscribe {
+  align-items: center;
+  background-color: var(--color-secondary);
+  padding: 0.563rem 2.063rem;
+  position: absolute;
+  width: 90%;
+  top: -7%;
+  left: 0;
+  right: 0;
+}
+.Subscribe p {
+  width: 25%;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--color-text-light);
+  margin: 0;
+  text-align: left;
+}
+::placeholder {
+  color: var(--color-text);
+  font-size: 0.625rem;
+}
+.input {
+  line-height: 1.875rem;
+  border: 1px solid var(--color-text-light);
+  padding: 0.313rem 1.875rem;
+  width: 70%;
+  background-color: var(--color-text-light);
+}
+.btn {
+  padding: 0 1.875rem;
+  border: 0;
+  color: var(--color-text-light);
+  cursor: pointer;
+  line-height: 2.625rem;
+  margin-right: 1.25rem;
+  background-color: var(--color-secondary);
+}
+.contactInformation p{
+  padding-bottom: 0.75rem;
+  text-align: right;
+}
+.btn:hover {
+  background-color: var(--color-primary);
+}
+.formFooter {
+  width: 50%;
+}
+.information {
+  flex-direction: row;
+  padding: 6.063rem 0 5rem;
+}
+.titleContact {
+  font-weight: 800;
+  font-size: 1.125rem;
+  color: var(--color-text-light);
+  margin-bottom: 1.875rem;
+  text-align: right;
+}
+.linkFooter {
+  padding-bottom: 0.75rem;
+  text-align: right;
+}
+.callNumber{
+  color: var(--color-secondary);
+  font-size: 2.125rem;
+  text-align: right;
+  margin: 0.563rem 0 1.25rem;
+}
+.appDownload{
+  margin-top: 1.25rem;
+}
+.app{
+  margin-left: 0.625rem;
+}
+.copyright{
+  align-items: center;
+  background-color: #323232;
+}
+.copyright p{
+  padding: 1.875rem;
+  margin: 0;
+}
+.copyright img{
+  width: 14.563rem;
+  height: 1.5rem;
+  padding: 1.875rem;
+  margin: 0;
+}

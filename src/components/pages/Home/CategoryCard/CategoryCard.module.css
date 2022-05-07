@@ -1,0 +1,35 @@
+.cartWrapper {
+  padding: 1.875rem 15px;
+  background: var(--color-text-light);
+  margin: 0 15px;
+}
+.cartWrapper:hover .iconCategory {
+  border: 2.188rem solid var(--color-primary);
+}
+.cartWrapper:hover .icon {
+  color: var(--color-secondary)
+}
+.iconCategory {
+  font-size: 41px;
+  border: 2.188rem solid var(--color-background-1);
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+.icon {
+  color: var(--color-primary);
+}
+.titleCategory {
+  margin-top: 22px;
+  margin-bottom: -8px;
+}
+.title {
+  font-size: 14px;
+  color: var(--color-primary);
+  font-weight: 600;
+  line-height: 1.3;
+}
+.title:hover {
+  color: var(--color-secondary);
+}

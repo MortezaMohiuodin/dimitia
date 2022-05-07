@@ -1,0 +1,18 @@
+.searchWrapper{
+  flex-direction: row;
+}
+.filter{
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+.sortContent{
+  flex: 0 0 75%;
+  max-width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.wrapperCart{
+  flex: 0 0 22%;
+  max-width: 22%;
+}

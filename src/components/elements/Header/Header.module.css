@@ -1,0 +1,103 @@
+.header_top {
+  margin: 3.125rem 0;
+}
+.header_dropDown {
+  display: flex;
+  align-items: center;
+}
+.account {
+  position: relative;
+}
+.cartShopping{
+  cursor: pointer;
+  font-size: 1.625rem;
+  color: var(--color-text);
+  position: relative;
+}
+.cart :hover {
+  color: var(--color-secondary);
+}
+.Count {
+  background-color: var(--color-secondary);
+  color: var(--color-text-light) !important;
+  position: absolute;
+  width: 1.563rem;
+  height: 1.563rem;
+  right: -0.313rem;
+  text-align: center;
+  line-height: 1.625rem;
+  font-size: 0.813rem;
+  top: -0.813rem;
+  font-weight: 500;
+  border-radius: 50%;
+}
+.searchForm {
+  display: flex;
+  border: 1px solid hsla(0, 0%, 56%, .15);
+  position: relative;
+}
+.header_search {
+  width: 50%;
+  height: 2.813rem;
+}
+.categories {
+  padding: 0.5rem 0.188rem 0 0;
+  color: #818d94;
+}
+.input_form {
+  width: 32em;
+  margin: auto 2em;
+}
+.input_form::placeholder {
+  color: #7a7a7a;
+}
+.iconSearch {
+  color: #7a7a7a;
+  font-size: 18px;
+  margin: auto 1em;
+}
+.iconSearch:hover {
+  color: var(--color-secondary);
+  cursor: pointer;
+}
+.header_nav {
+  background-color: var(--color-primary);
+}
+.menuList {
+  display: flex;
+  flex-direction: row;
+  padding: 0 0.938rem;
+}
+.menuItem {
+  color: var(--color-text-light);
+  padding: 1.375rem 1.563rem;
+  font-weight: 600;
+}
+.menuItem:hover {
+  background-color: var(--color-secondary);
+}
+.iconMneu {
+  transform: rotate(180deg);
+  font-size: 0.563rem;
+  padding-left: 0.5rem;
+  display: inline-block;
+  font-weight: bold;
+}
+.freeShipping {
+  background-color: var(--color-secondary);
+  display: flex;
+  align-items: center;
+  line-height: 3.75rem;
+  padding: 0 1.375rem;
+}
+.freeShipping img {
+  width: 2rem;
+  height: 2rem;
+  vertical-align: middle;
+  margin:0 0 0 1.25rem;
+}
+.freeShipping span {
+  color: var(--color-text-light);
+  font-size: 1.063rem;
+  user-select: none;
+}

@@ -1,0 +1,17 @@
+.cartBasket_component{
+    text-align: right;
+    width: 380px;
+    padding: 1.875rem 1.25rem;
+    border: 1px solid var(--color-background-1);
+    background: var(--color-text-light);
+    position: absolute;
+    color: var(--color-primary);
+    z-index: 10001;
+    right: -12px;
+    top: 45px;
+    box-shadow: 0 0.313rem 0.313rem 0 rgb(50 50 50 / 20%)
+}
+.cartBasket_component p{
+    margin-top: 0.625rem;
+    padding-bottom: 0.625rem;
+}

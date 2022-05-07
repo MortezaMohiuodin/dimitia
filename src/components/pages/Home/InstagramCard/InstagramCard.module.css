@@ -1,0 +1,49 @@
+.cartSlider {
+  margin-bottom: 1.875rem;
+  padding: 0 15px;
+}
+.imageInstagram {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+.imageInstagram::before {
+  content: "";
+  top: 0;
+  height: 100%;
+  background-color: rgba(37, 37, 37, .45);
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+}
+.imageInstagram:hover::before {
+  opacity: 1;
+  visibility: visible;
+}
+.imageInstagram:hover .image {
+  transition: .3s ease;
+  transform: scale(1.2);
+}
+.image {
+  max-width: 100%;
+}
+.icon {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  font-size: 1.875rem;
+  z-index: 10;
+  top: 45%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  color: var(--color-text-light);
+}
+.imageInstagram:hover .icon {
+  transition: opacity .3s ease;
+  visibility: visible;
+  opacity: 1;
+}

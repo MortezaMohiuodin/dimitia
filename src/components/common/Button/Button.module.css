@@ -1,0 +1,99 @@
+.container {
+  cursor: pointer;
+  box-sizing: border-box;
+  position: relative;
+  padding: 0.5rem 0;
+  background: var(--background);
+}
+.container.default {
+  padding: 0.75rem 1.3rem;
+  /* border-radius: 12px; */
+  transition: all 0.3s;
+}
+.container.default.large {
+  padding: 0.75rem 2.2rem;
+}
+.container.primary {
+  background-color: var(--color-secondary);
+  color: var(--color-text-light);
+}
+.container.primary:hover {
+background-color: var(--color-secondary-darker);;
+}
+.container.primary.-theme-2 {
+  background: var(--color-secondary);
+}
+.container.primary.-theme-2:hover {
+  background: var(--color-secondary-darker);
+}
+.container.withBorder {
+  --text-color: var(--color-primary);
+  border: solid 1px var(--color-primary);
+}
+.container.withBorder.-theme-2 {
+  --text-color: var(--color-text-light);
+  border: solid 1px var(--color-border-2);
+}
+.container.withBorder.-theme-3 {
+  padding: 0.5rem;
+  --text-color: var(--color-text-2);
+  border: solid 1px var(--color-bg-5);
+}
+.container.withBorder:hover {
+  --text-color: var(--color-text-light);
+  --background: var(--color-primary);
+}
+.container.highlight {
+  --background: var(--color-bg-4);
+}
+.container.highlight.-theme-2 {
+  --background: var(--color-bg-1);
+}
+.container.highlight.-theme-2:hover {
+  --background: var(--color-bg-1-darker);
+}
+.container.reverse {
+  flex-direction: row-reverse;
+}
+.container.disable {
+  opacity: 0.4;
+}
+.container i {
+  font-size: 1.4rem;
+  color: var(--text-color);
+  transition: all 0.3s;
+}
+.container.highlight i {
+  color: var(--color-primary);
+}
+.container.link i {
+  color: var(--color-primary);
+}
+.container.link {
+  --text-color: var(--color-primary);
+}
+
+/*---------------*/
+.container.link.-theme-2 {
+  --text-color: var(--color-secondary);
+}
+.container.link.-theme-2 i {
+  color: var(--color-secondary);
+}
+.container.link.-theme-3 {
+  --text-color: var(--color-text-2);
+}
+.container.link.-theme-3 i {
+  color: var(--color-text);
+}
+/*---------------*/
+.title {
+  color: var(--color-text-1);
+  transition: all 0.3s;
+}
+.title:hover{
+  color: var(--color-secondary);
+}
+.space {
+  width: 0.5rem;
+}

@@ -1,0 +1,6 @@
+::placeholder{
+  color: #bbb;
+}
+.select:hover{
+  background-color: var(--color-text-light);
+}

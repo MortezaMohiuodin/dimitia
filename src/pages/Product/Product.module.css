@@ -1,0 +1,102 @@
+.gallery{
+  width: 50%;
+}
+.ProductOverview{
+  width: 50%;
+  padding-right: 1.875rem;
+  text-align: right;
+}
+.titleProduct{
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+  line-height: 100%;
+}
+.price{
+  font-size: 1.875rem;
+  margin-bottom: 18px;
+  font-weight: 700;
+  color: var(--color-secondary);
+}
+.productStock :first-child{
+  color: var(--color-text);
+}
+.productStock :nth-child(2){
+  color: var(--color-text);
+}
+.description{
+  color: var(--color-text);
+  margin-bottom: 23px;
+  line-height: 1.8;
+}
+.quantity{
+  display: flex;
+  align-items: flex-end;
+}
+.counter{
+  margin-left: 1.25rem;
+}
+.increment ,.count, .decrement{
+      width: 40px;
+    height: 100%;
+    line-height: 1.875rem;
+    font-size: 1.25rem;
+    border: 1px solid hsla(0,0%,56%,.25);
+    display: inline-block;
+    text-align: center;
+    padding: 0.263rem 14px;
+}
+.option{
+  color: var(--color-text);
+  margin: 0.938rem 10.625rem 1.875rem  0;
+}
+.linkOption:hover{
+  color: var(--color-secondary);
+}
+.linkOption{
+  margin-left: 1.25rem;
+}
+.iconOption{
+  margin-right: 8px;
+}
+.text{
+  font-size: 17px;
+  vertical-align: text-top;
+}
+.productMeta{
+  display: flex;
+  flex-direction: column;
+}
+.lable{
+  color: var(--color-primary);
+  padding: 1.25rem 0;
+  border-bottom: 1px solid hsla(0,0%,56%,.15);
+}
+.desc{
+  color: var(--color-text);
+  display: inline-block;
+}
+.desc:hover{
+  color: var(--color-secondary);
+}
+.tabBarWrapper{
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.tab{
+  font-size: 1.25rem;
+  color: var(--color-primary);
+  font-weight: 700;
+  padding: 0 25px;
+}
+.active{
+  color: var(--color-secondary);
+}
+.moreProduct{
+  margin-top: 80px;
+}
+.moreProduct h2{
+text-align: right;
+margin-bottom: 60px;
+font-weight: 800;
+color: var(--color-primary);
+}

@@ -1,0 +1,91 @@
+.searchFilter {
+}
+.iconFilter {
+  color: var(--color-text);
+  transform: rotate(270deg);
+  display: inline-block;
+  font-size: 0.5rem !important;
+  margin: 0 0.5rem;
+  font-weight: bold;
+}
+.itemCategory:hover{
+  color: var(--color-secondary) !important;
+}
+.outputRange {
+  width: calc(100% - 2rem);
+  margin-top: 1.6rem;
+}
+.outputRange span {
+  margin-right: 1.1rem;
+  border-bottom: 1px dashed var(--color-bg-5);
+}
+.itemColor{
+  color: var(--color-text);
+}
+.lable {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  user-select: none;
+  padding-right: 10%;
+}
+.lable input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkmark {
+  position: absolute;
+  top: 7px;
+  right: 0;
+  height: 20px;
+  width: 20px;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.lable:hover input ~ .checkmark {
+  transform: scale(1.1);
+}
+.lable input:checked ~ .checkmark:after {
+  display: block;
+}
+.lable .checkmark:after {
+  left: 7px;
+  top: 1px;
+  width: 5px;
+  height: 10px;
+  transform: rotate(45deg);
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+}
+.itemBrand{
+  text-align: right;
+  color: var(--color-text);
+  margin-bottom: .6rem
+}
+.collapseBrands{
+  display: inline-block;
+  text-align: right;
+}
+.hashtag{
+  color: var(--color-text);
+  border: 1px solid hsla(0,0%,40%,.25);
+  padding: 10px;
+  display: inline-block;
+  margin: 0 0 10px 6px;
+}
+.hashtag:hover{
+  color: var(--color-text-light);
+  background-color: var(--color-secondary);
+  transition: .5s;
+}

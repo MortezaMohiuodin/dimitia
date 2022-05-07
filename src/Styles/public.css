@@ -1,0 +1,156 @@
+html {
+  font-size: 100%;
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+.container {
+  max-width: 1500px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 1.875rem;
+}
+.center-border {
+  border-bottom: 1px solid var(--color-background-1);
+  border-top: 1px solid var(--color-background-1);
+  width: 100%;
+  text-align: right;
+}
+.slick-center :nth-child(1) {
+  background-color: var(--color-secondary) !important;
+  color: var(--color-text-light);
+}
+.slick-center .commentSlider::before {
+  color: #ef343a !important;
+  z-index: 2;
+}
+.commentSlider {
+  background: var(--color-background-1);
+  padding: 0.5rem 3.125rem 65px;
+  position: relative;
+  margin: 0 15px;
+  user-select: none;
+}
+.commentSlider::before {
+  position: absolute;
+  content: " \275E";
+  font-size: 170px;
+  color: rgba(237, 29, 36, .1);
+  top: 9%;
+  left: 0;
+  right: 0;
+}
+.icon {
+  cursor: pointer;
+  position: relative;
+}
+.icon:hover {
+  color: var(--color-secondary);
+}
+.iconNav {
+  margin: 0 15px;
+  font-size: 23px;
+  color: var(--color-text);
+}
+.link:hover {
+  color: var(--color-secondary);
+}
+.white {
+  color: var(--color-text-light);
+}
+.black {
+  color: var(--color-primary);
+}
+.css-1okebmr-indicatorSeparator {
+  position: relative;
+  right: 40px;
+}
+.image-gallery-image {
+  max-height: 100vh;
+  outline: none;
+}
+.image-gallery {
+  width: 50%;
+}
+.image-gallery-thumbnails-container {
+  display: flex;
+  justify-content: space-between;
+}
+.image-gallery-image {
+  object-fit: inherit !important;
+}
+::selection {
+  color: var(--color-text-light);
+  background: var(--color-secondary);
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.justify-between {
+  display: flex;
+  justify-content: space-between;
+}
+.justify-end {
+  display: flex;
+  justify-content: flex-end;
+}
+.justify-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* -------------- TYPOGRAPHY -------------- */
+
+.header1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: var(--color-primary);
+}
+
+.header2 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.header3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.header5 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.header6 {
+  font-size: .8rem;
+  font-weight: 500;
+}
+
+.Body1 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 15px;
+}
+
+.body2 {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-text);
+}
+
+.body2:hover {
+  color: var(--color-secondary)
+}
